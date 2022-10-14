@@ -223,6 +223,7 @@ main {
 #namesec, #emailsec, #commentsec {
     margin-left: 20%;
     height: 1.5rem;
+    padding-right: 40px;
 }
 
 #commentsec {
