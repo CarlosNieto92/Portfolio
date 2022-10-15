@@ -207,7 +207,7 @@ main {
 
 .maincontact {
     display: flex;
-    top: 50px;
+    top: 70px;
     margin: 5% 32% 5%;
     padding: 3% 3%;
     width: 30%;
@@ -223,7 +223,7 @@ main {
 #namesec, #emailsec, #commentsec {
     margin-left: 20%;
     height: 1.5rem;
-    padding-right: 40px;
+    padding-right: px;
 }
 
 #commentsec {
