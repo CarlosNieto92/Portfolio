@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 0%;
 }
 
 .navigation {
@@ -10,23 +10,16 @@ body {
     text-shadow: 1px 0.5px 1px #000000;
     background-color: #f1f1f2;
     box-shadow: 0 2px 10px #b2b9bc;
-    padding: 1%;
-    margin: 0;
-}
-
-.navul {
-    font-size: 35px;
-    padding-left: 3%;
-}
-
-.navul a {
-    padding-right: 20px;
+    padding: 1% 0% 1% 1%;
+    margin: 0%;
 }
 
 .navright {
-    float: right;
+    text-align: right;
     font-size: 35px;
-    padding-right: 1%;
+    padding-right: 0%;
+    margin-right: 0%;
+    width: 100%;
 }
 
 .navright a {
@@ -40,19 +33,27 @@ body {
 }
 
 .navigation a:hover {
-    color: #f5f5f5;
+    color: #3b6ad7;
     text-shadow: 2px 1px 8px #363839;
 }
 
 .bannerimg h1 {
     position: fixed;
-    background-image: url("./Content/Carlos_Nieto_2.png");
+    background-image: url("./Content/Carlos_Nieto_3.png");
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 890px;
-    margin-top: 0;
-    font-size: 0;
+    height: 100%;
+    margin-top: 0px;
+    font-size: 0px;
+}
+
+.imagename {
+    display: flex;
+    position: fixed;
+    top: 500px;
+    left: 30%;
+    font-size: 40px;
 }
 
 main {
@@ -68,21 +69,26 @@ main {
     background-color: #c5c5ce;
     border-radius: 0.5%;
     font-size: 30px;
-    margin: 1% 15% 0;
+    margin: 1% 15% 0%;
     padding: 30px 80px;
 
 }
 
 .logosection {
+    display: flex;
     text-align: center;
+}
+
+.logosection img {
+    overflow: auto;
 }
 
 .codinggif {
     margin-top: 3%;
+    margin-left: 3%;
 }
 
 .codinggif img {
-    height: 90%;
     width: 95%;
     margin: 10px 30px 30px;
 }
@@ -92,9 +98,10 @@ main {
 }
 
 .skillsec {
-    margin: 8%;
+    margin: 8% 4%;
     background-color: #c5c5ce;
     border-radius: 0.5%;
+    padding: 7% 0%;
 }
 
 .skillssec2 {
@@ -135,7 +142,7 @@ main {
 }
 
 .leftfooter1 a:hover, .footerright1 a:hover {
-    color: #f5f5f5;
+    color: #3b6ad7;
     text-shadow: 2px 1px 8px #363839;
 }
 
@@ -201,8 +208,8 @@ main {
     background-position: center;
     width: 100%;
     height: 100%;
-    margin-top: 0;
-    font-size: 0;
+    margin-top: 0%;
+    font-size: 0px;
 }
 
 .maincontact {
@@ -221,9 +228,8 @@ main {
 }
 
 #namesec, #emailsec, #commentsec {
-    margin-left: 20%;
+    width: 80%;
     height: 1.5rem;
-    padding-right: px;
 }
 
 #commentsec {
