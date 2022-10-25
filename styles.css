@@ -51,7 +51,8 @@ body {
 .imagename {
     display: flex;
     position: fixed;
-    top: 500px;
+    top: 490px;
+    text-shadow: 2px 2px 6px rgb(247, 243, 243);
     left: 30%;
     font-size: 40px;
 }
@@ -89,7 +90,7 @@ main {
 }
 
 .codinggif img {
-    width: 95%;
+    height: 90%;
     margin: 10px 30px 30px;
 }
 
@@ -164,11 +165,15 @@ main {
     color: rgb(3, 107, 148);
 }
 
+.stickyicon-list {
+margin-top: 5px;
+}
+
 .stickyicon-list a {
     display: block;
     text-align: center;
     padding: 8px;
-    margin: 3px 90px;
+    margin: 25px 90px 0px 90px;
     transition: all 1s ease;
     color: white;
     font-size: 20px;
@@ -178,26 +183,17 @@ main {
     color: #000;
 }
 
-.twitter {
-    color: white;
-    background: #00acee;
-}
-
 .linkedin {
     background: #0e76a8;
     color: white;
+    box-shadow: 3px 2px 8px #363839;
 }
 
 .google {
     color: white;
     background: #db4a39;
+    box-shadow: 3px 2px 8px #363839;
 }
-
-.instagram {
-    background: #3f729b;
-    color: white;
-}
-
 /* Contact section */
 
 .bannerimgC h1 {
@@ -249,7 +245,7 @@ main {
 
 .contactform2 label {
     display: flex;
-    font-size: 40px;
+    font-size: 30px;
     padding: 0%;
 }
 
@@ -265,6 +261,48 @@ main {
     top: 120px;
     box-shadow: -1px 0 10px #b2b9bc;
     background-color: #f5f5f5;
+}
+
+/* media Q */
+@media only screen and (max-width: 1280px){
+    .codinggif {
+        overflow: hidden;
+    }
+
+    .stickyicon-list a {
+        margin: 15px 90px 0px 90px;
+    }
+
+    .imagename {
+        left: 25%;
+    }
+
+    .maincontact {
+        margin: 5% 20% 5%;
+        width: 50%;
+        padding: 5% 5%;
+    }
+
+    .contacthead {
+        margin-left: 40px;
+    }
+
+    .contactform2 h1{
+       font-size: 65px; 
+    }
+
+    .contactform2 label {
+        font-size: 40px;
+        margin-left: 15%;
+    }
+
+    #namesec, #emailsec, #commentsec {
+        margin-left: 15%;
+    }
+
+    .submitbuttonsection {
+        margin-left: 40%;
+    }
 }
 
 .row {
