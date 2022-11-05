@@ -86,6 +86,7 @@ main {
 .logosection {
     display: flex;
     text-align: center;
+    margin-top: 60px;
 }
 
 .logosection img {
@@ -108,7 +109,7 @@ main {
 }
 
 .skillsec {
-    margin: 8% 4%;
+    margin: 8% 2% 8% 3%;
     background-color: #c5c5ce;
     border-radius: 0.5%;
     padding: 7% 0%;
@@ -299,9 +300,10 @@ margin-top: 5px;
 }
 
 .row {
-    display: inline-flex;
+    display: flex;
     width: 100%;
     margin: 0%;
+    flex-wrap: nowrap;
 }
 
 .col-1 {
