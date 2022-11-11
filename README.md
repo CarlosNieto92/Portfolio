@@ -15,3 +15,4 @@ So that it can be tracked if errors occur
 # Hosting Link
 ---
 [PORTFOLIO](https://carlosnieto92.github.io/Portfolio/)
+![Portfolio Diagram](./Content/Portfolio Diagram.png)
