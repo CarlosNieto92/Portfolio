@@ -247,10 +247,10 @@ margin-top: 5px;
     width: 49%;
     box-shadow: -1px 0 10px #b2b9bc;
     background-color: #f5f5f5;
+    justify-content: center;
 }
 
 .contactform2 {
-    margin-left: 12%;
     text-align: left;
 }
 
@@ -267,7 +267,7 @@ margin-top: 5px;
 .contactform2 h1 {
     display: flex;
     flex-wrap: nowrap;
-    font-size: 69px;
+    font-size: 100px;
     margin-bottom: 9%;
 }
 
@@ -279,16 +279,20 @@ margin-top: 5px;
 
 .contactform2 label {
     display: flex;
-    font-size: 30px;
+    font-size: 50px;
     padding: 0%;
     margin-left: 5%;
 }
 
+#namesec, #emailsec {
+    height: 40px;
+}
+
 .submitbuttonsection {
     display: flex;
-    font-size: 35px;
+    font-size: 40px;
     border: 1.5px solid #000000;
-    margin: 5% 0% 0% 35%;
+    margin: 5% 0% 0% 38%;
 }
 
 .footercontact {
@@ -395,23 +399,24 @@ margin-top: 5px;
         margin: 5% 20% 5%;
         width: 61%;
         padding: 5% 4%;
+        justify-content: center;
     }
 
     .contacthead {
-        margin-left: 40px;
+        margin-left: 0px;
     }
 
     .contactform2 h1{
-       font-size: 65px; 
+       font-size: 75px; 
     }
 
     .contactform2 label {
         font-size: 40px;
-        margin-left: 15%;
+        margin-left: 0%;
     }
 
     #namesec, #emailsec, #commentsec {
-        margin-left: 15%;
+        margin-left: 8%;
     }
 
     .submitbuttonsection {
@@ -441,8 +446,8 @@ margin-top: 5px;
     }
 
     .maincontact {
-        margin: 5% 20% 5%;
-        width: 40%;
+        margin: 5% 16% 5%;
+        width: 66%;
         padding: 5% 5%;
     }
 
@@ -461,6 +466,11 @@ margin-top: 5px;
     .contactform2 label {
         font-size: 30px;
         margin-left: 5%;
+    }
+
+    .submitbuttonsection {
+        align-content: center;
+        margin-left: 25%;
     }
 
     #namesec, #emailsec, #commentsec {
@@ -520,11 +530,36 @@ margin-top: 5px;
         top: 350px;
     }
 
+    .maincontact {
+        margin: 5% 5% 5%;
+        width: 90%;
+    }
+
+    .contactform2 {
+        margin-left: 0%;
+    }
+
+    .contactform2 h1 {
+        font-size: 44px;
+    }
+
+    .contactform2 label {
+        font-size: 32px;
+    }
+
+    #namesec, #emailsec, #commentsec {
+        margin-left: 10%;
+    } 
+
     .footerright1 {
         margin-top: 4%;
     }
 
     .footerright1 a {
         margin-top: 10px;
+    }
+
+    .stickyicon-list a {
+        margin: 15px -70px 0px -57px;
     }
 }
